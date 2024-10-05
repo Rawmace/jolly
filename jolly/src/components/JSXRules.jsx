@@ -8,7 +8,7 @@ function JSXRules() {
           <li>JSXelement must be properly closed </li>
 
           <li>
-            JSX attributes are written using camelCasd (eg. className instead of
+            JSX attributes are written using camelCase (eg. className instead of
             class and 'htmlFor' for 'for' attribute)
           </li>
         </ol>

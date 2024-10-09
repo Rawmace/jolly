@@ -1,11 +1,13 @@
 import Greeting from "./components/Greeting";
+import IconComponent from "./components/IconComponent";
 import JSXRules from "./components/JSXRules";
 import Product from "./components/Product";
 import ProductInfo from "./components/ProductInfo";
 import ProductList from "./components/ProductList";
+import Style from "./components/Style";
 import Weather from "./components/Weather";
 import WelcomeMessage from "./components/WelcomeMessage";
-
+import "./index.css";
 function App() {
   return (
     <div>
@@ -17,6 +19,8 @@ function App() {
       <Person name="Ramesh Devkota" age="21" />
       <Product name="Jolly chicken" price="220" />
       <Weather />
+      <Style />
+      <IconComponent />
     </div>
   );
 }
